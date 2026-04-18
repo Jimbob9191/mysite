@@ -18,8 +18,8 @@ export const projects: CaseStudy[] = [
     title: "FinTrack Dashboard Redesign",
     description:
       "Redesigning a complex financial analytics dashboard to reduce cognitive load and surface actionable insights faster.",
-    coverImage: "/images/projects/fintrack-cover.png",
-    coverAlt: "FinTrack dashboard before and after comparison",
+    coverImage: "/images/projects/metamask-cover.png",
+    coverAlt: "MetaMask-style crypto wallet UI redesign",
     role: "Lead Product Designer",
     timeline: "Jan – Apr 2024 · 14 weeks",
     tools: ["Figma", "FigJam", "Maze", "Loom"],

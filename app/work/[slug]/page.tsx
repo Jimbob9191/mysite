@@ -37,7 +37,7 @@ export default async function CaseStudyPage({
   const { prev, next } = getAdjacentProjects(slug);
 
   return (
-    <article className="max-w-3xl mx-auto px-6 pb-24">
+    <article className="max-w-3xl mx-auto px-6 pt-12 pb-24">
       <div className="relative aspect-[16/7] bg-muted -mx-6 mb-12 md:mx-0 md:rounded-lg overflow-hidden">
         <Image
           src={project.coverImage}

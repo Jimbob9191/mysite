@@ -6,7 +6,7 @@ import type { CaseStudy } from "@/lib/projects";
 export default function ProjectCard({ project }: { project: CaseStudy }) {
   return (
     <Link href={`/work/${project.slug}`} className="group block">
-      <Card className="overflow-hidden border-border hover:border-ring">
+      <Card className="overflow-hidden border-border hover:border-ring pt-0">
         <div className="relative aspect-video bg-muted">
           <Image
             src={project.coverImage}
