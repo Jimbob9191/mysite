@@ -7,16 +7,15 @@ export default function Home() {
   return (
     <div className="max-w-5xl mx-auto px-6">
       <section className="py-24 md:py-36">
-        <h1 className="font-serif text-5xl md:text-7xl font-light leading-tight text-foreground mb-6">
-          Design that makes
+        <h1 className="font-serif text-5xl md:text-7xl font-normal leading-none text-foreground mb-6">
+          Product Obsessed
           <br />
-          complex things clear.
+          Designer & Creative
         </h1>
-        <p className="text-lg text-muted-foreground max-w-xl mb-10">
-          I&apos;m Jane Doe — a UX/UI designer who turns ambiguous problems into
-          products people actually want to use.
+        <p className="text-lg text-muted-foreground max-w-2xl mb-10">
+          Hi, I&apos;m James, a product focused UX/UI professional with 5 years experience delivering user friendly, accessible and engaging digital products.
         </p>
-        <Link href="/work" className={buttonVariants({ variant: "outline" })}>
+        <Link href="/work" className={buttonVariants({ variant: "default" })}>
           View my work
         </Link>
       </section>

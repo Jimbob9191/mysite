@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, DM_Sans, Geist_Mono } from "next/font/google";
+import { Ovo, Mulish, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/navbar";
@@ -7,16 +7,16 @@ import Footer from "@/components/footer";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 
-const cormorant = Cormorant_Garamond({
+const ovo = Ovo({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
-  variable: "--font-cormorant",
+  weight: ["400"],
+  variable: "--font-ovo",
   display: "swap",
 });
 
-const dmSans = DM_Sans({
+const mulish = Mulish({
   subsets: ["latin"],
-  variable: "--font-dm-sans",
+  variable: "--font-mulish",
   display: "swap",
 });
 
@@ -50,7 +50,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${cormorant.variable} ${dmSans.variable} ${geistMono.variable}`}
+      className={`${ovo.variable} ${mulish.variable} ${geistMono.variable}`}
       suppressHydrationWarning
     >
       <body className="min-h-screen bg-background text-foreground antialiased flex flex-col">
