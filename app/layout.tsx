@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -63,6 +64,7 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <Footer />
           <SpeedInsights />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
