@@ -4,7 +4,7 @@ import ContactForm from "@/components/contact-form";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Get in touch with Jane Doe.",
+  description: "Get in touch with James Molyneux-Birch.",
 };
 
 export default function ContactPage() {
@@ -20,13 +20,13 @@ export default function ContactPage() {
 
       <div className="flex gap-6 mb-12 text-sm">
         <a
-          href="mailto:jane@example.com"
+          href="mailto:jamesmolyneuxbirch@gmail.com"
           className="text-foreground hover:text-muted-foreground underline underline-offset-4"
         >
-          jane@example.com
+          jamesmolyneuxbirch@gmail.com
         </a>
         <a
-          href="https://linkedin.com/in/janedoe"
+          href="https://www.linkedin.com/in/jamesmolyneuxbirch/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-foreground hover:text-muted-foreground underline underline-offset-4"

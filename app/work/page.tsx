@@ -4,7 +4,7 @@ import { projects } from "@/lib/projects";
 
 export const metadata: Metadata = {
   title: "Work",
-  description: "Selected UX/UI design projects by Jane Doe.",
+  description: "Selected UX/UI design projects by James Molyneux-Birch.",
 };
 
 export default function WorkPage() {

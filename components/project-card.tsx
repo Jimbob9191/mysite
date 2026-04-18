@@ -12,7 +12,7 @@ export default function ProjectCard({ project }: { project: CaseStudy }) {
             src={project.coverImage}
             alt={project.coverAlt}
             fill
-            className="object-cover"
+            className="object-cover object-top"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
           />
         </div>

@@ -3,7 +3,7 @@ import { Separator } from "@/components/ui/separator";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "About Jane Doe — UX/UI designer.",
+  description: "About James Molyneux-Birch — UX/UI designer.",
 };
 
 const skills = [
@@ -35,7 +35,7 @@ export default function AboutPage() {
 
       <div className="space-y-5 text-base text-muted-foreground leading-relaxed mb-16">
         <p>
-          I&apos;m Jane Doe, a UX/UI designer with seven years of experience
+          I&apos;m James Molyneux-Birch, a UX/UI designer with seven years of experience
           shipping products at the intersection of complexity and clarity.
           I&apos;ve worked with B2B SaaS companies, fintech startups, and
           enterprise software teams — consistently focused on research-led

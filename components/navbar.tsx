@@ -9,7 +9,7 @@ export default function Navbar() {
           href="/"
           className="font-serif text-xl text-foreground hover:text-muted-foreground"
         >
-          Jane Doe
+          James Molyneux-Birch
         </Link>
         <ul className="flex items-center gap-1">
           <li>

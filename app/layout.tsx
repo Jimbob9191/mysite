@@ -31,11 +31,11 @@ export const metadata: Metadata = {
     process.env.NEXT_PUBLIC_BASE_URL ?? "http://localhost:3000"
   ),
   title: {
-    default: "Jane Doe — UX/UI Designer",
-    template: "%s | Jane Doe",
+    default: "James Molyneux-Birch — UX/UI Designer",
+    template: "%s | James Molyneux-Birch",
   },
   description:
-    "Portfolio of Jane Doe, a UX/UI designer focused on clarity and craft.",
+    "Portfolio of James Molyneux-Birch, a UX/UI designer focused on clarity and craft.",
   openGraph: {
     type: "website",
     images: ["/images/og-default.png"],
