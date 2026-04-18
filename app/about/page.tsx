@@ -35,21 +35,22 @@ export default function AboutPage() {
 
       <div className="space-y-5 text-base text-muted-foreground leading-relaxed mb-16">
         <p>
-          I&apos;m James Molyneux-Birch, a UX/UI designer with seven years of experience
-          shipping products at the intersection of complexity and clarity.
-          I&apos;ve worked with B2B SaaS companies, fintech startups, and
-          enterprise software teams — consistently focused on research-led
-          design that reduces friction for real people.
+          I&apos;m James Molyneux-Birch, a UX/UI designer with over five years
+          of experience working with startups and established brands across
+          fintech, healthcare, and ecommerce.
         </p>
         <p>
-          My process starts with understanding before designing. I run discovery
-          interviews, map jobs-to-be-done, and test early and often. I believe
-          good design is invisible: when it&apos;s working, users are thinking
-          about their goal, not about the interface.
+          I care about design that earns trust. The kind that gets out of the
+          way and lets people do what they actually came to do.
         </p>
         <p>
-          Previously at FinTrack and JourneyMap. Open to well-considered
-          problems at companies that care about craft.
+          Currently designing at Foundation Health. Previously at Pavers Shoes
+          and Coeo. Open to well-considered problems at companies that care
+          about craft.
+        </p>
+        <p>
+          Outside of work, I&apos;m usually shooting photos, playing video
+          games, or pulling apart whatever AI tool just dropped.
         </p>
       </div>
 
