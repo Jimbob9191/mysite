@@ -20,7 +20,7 @@ export default function ProjectCard({ project }: { project: CaseStudy }) {
           <h3 className="font-serif text-xl text-card-foreground mb-1">
             {project.title}
           </h3>
-          <p className="text-sm text-muted-foreground leading-relaxed">
+          <p className="text-sm text-muted-foreground leading-relaxed line-clamp-2">
             {project.description}
           </p>
         </CardContent>

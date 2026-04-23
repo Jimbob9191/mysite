@@ -7,23 +7,24 @@ export const metadata: Metadata = {
 };
 
 const skills = [
-  "User Research & Synthesis",
+  "Design Systems",
   "Information Architecture",
   "Interaction Design",
   "Visual Design",
+  "User Research",
   "Prototyping & Testing",
-  "Design Systems",
-  "Accessibility (WCAG 2.2)",
+  "Accessibility",
 ];
 
 const tools = [
   "Figma",
-  "FigJam",
-  "Maze",
+  "Claude Code",
+  "Adobe",
+  "Slack",
+  "Jira",
   "Hotjar",
-  "Notion",
-  "Loom",
-  "Linear",
+  "Google Analytics",
+  "ABTasty",
 ];
 
 export default function AboutPage() {
@@ -35,21 +36,16 @@ export default function AboutPage() {
 
       <div className="space-y-5 text-base text-muted-foreground leading-relaxed mb-16">
         <p>
-          I&apos;m James Molyneux-Birch, a UX/UI designer with over five years
-          of experience working with startups and established brands across
-          fintech, healthcare, and ecommerce.
+          Hey, I&apos;m James Molyneux-Birch, a UX/UI designer with over five
+          years of experience across fintech, healthcare, and ecommerce -
+          working with both early-stage startups and established brands.
         </p>
         <p>
-          I care about design that earns trust. The kind that gets out of the
-          way and lets people do what they actually came to do.
-        </p>
-        <p>
-          Currently designing at Foundation Health. Previously at Pavers Shoes
-          and Coeo. Open to well-considered problems at companies that care
-          about craft.
-        </p>
-        <p>
-          Outside of work, I&apos;m usually shooting photos, playing video
+          I care about design that earns trust: the kind that gets out of the
+          way and lets people do what they actually came to do. Currently
+          designing at Foundation Health, previously at Pavers Shoes and coeo.
+          Open to well-considered problems at companies that care about craft.
+          Outside of work I&apos;m usually shooting photos, playing video
           games, or pulling apart whatever AI tool just dropped.
         </p>
       </div>
@@ -86,19 +82,20 @@ export default function AboutPage() {
       <Separator className="mb-12" />
 
       <div className="bg-card border border-border rounded-lg px-6 py-5">
-        <p className="text-sm text-muted-foreground">
+        <p className="text-sm text-muted-foreground flex items-center">
           <span
-            className="inline-block w-2 h-2 rounded-full bg-primary mr-2 align-middle"
+            className="inline-block shrink-0 w-2 h-2 rounded-full bg-green-500 mr-2"
             aria-hidden="true"
           />
-          Currently available for freelance projects and contract engagements
-          starting July 2025. Interested in working together?{" "}
-          <a
-            href="/contact"
-            className="text-foreground underline underline-offset-4"
-          >
-            Get in touch.
-          </a>
+          <span>
+            Currently available for projects. Interested in working together?{" "}
+            <a
+              href="/contact"
+              className="text-foreground underline underline-offset-4"
+            >
+              Get in touch.
+            </a>
+          </span>
         </p>
       </div>
     </div>
